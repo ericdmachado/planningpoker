@@ -1,0 +1,15 @@
+$danger: #df1123;
+$info: #1483ff;
+$success: #54bd5c;
+$primary: $info;
+$cyan: $info;
+
+$radius-small: 8px;
+$radius: $radius-small;
+$radius-large: $radius-small;
+
+:root{
+  --default-border-radius: $radius-small;
+}
+
+$text: var("--default-text-color");

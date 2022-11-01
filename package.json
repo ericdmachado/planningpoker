@@ -1,0 +1,32 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "echo 'Bora bill!'",
+    "start": "bash start.sh",
+    "dev": "nodemon --ignore ./frontend/* -L ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bson": "^4.6.2",
+    "cookie-parser": "^1.4.6",
+    "copy-to-clipboard": "^3.3.2",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "express": "^4.17.3",
+    "express-sanitizer": "^1.0.6",
+    "helmet": "^5.0.2",
+    "http-errors": "^2.0.0",
+    "ip": "^1.1.8",
+    "lodash": "^4.17.21",
+    "module-alias": "^2.2.2",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  }
+}
